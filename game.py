@@ -5,6 +5,7 @@ class game:
     max_color = 0
     time = 0
     #entanglement_map ??
+    game_state = GameState.NotStarted
 
     def next_move(graph, current_node):
         #not_implemented
