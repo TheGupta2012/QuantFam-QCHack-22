@@ -2,7 +2,7 @@ class game:
     graph = graph()
     user = user()
     current_node = 0
-    max_color = 0
+    chromatic_number = 0
     time = 0
     #entanglement_map ??
     game_state = GameState.NotStarted
