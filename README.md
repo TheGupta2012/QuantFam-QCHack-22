@@ -22,3 +22,10 @@ with red borders are entangled.
 So, can you color it? Give it a try!
 
 Every calculation is done by simulators due to time constraints.
+
+## Steps to play the game
+
+1. The user is presented with an empty graph along with a panel containing vertex number and color.
+2. In order to color the graph, one has to select a color and a vertex. The particular vertex is selected with the color.
+3. The user can continue coloring the graph keeping in mind that adjacent vertices should not be of the same color.
+4. If the user tries to color adjacent vertices with the same color, the user loses the game.
