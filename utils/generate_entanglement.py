@@ -6,7 +6,7 @@ from math import log2, ceil
 from random import random
 from qiskit import QuantumCircuit, Aer, execute
 from qiskit.circuit.library import RYGate
-from numpy import arcsin, greater_equal, sqrt
+from numpy import arcsin, sqrt
 
 backend = Aer.get_backend("qasm_simulator")
 
@@ -106,6 +106,6 @@ def generate_pairs(inp_vertices):
     return ans
 
 
-l = [1, 2, 6, 5, 3, 8]
+# l = [1, 2, 6, 5, 3, 8]
 
-print(generate_pairs(l))
+# print(generate_pairs(l))
